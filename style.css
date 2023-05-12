@@ -1,0 +1,89 @@
+/* Write some CSS below */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: 0
+  }
+
+  h1 {
+    font-size: 74px;
+    color: azure;
+  }
+  h2 {
+    font-size: 48px;
+    margin-bottom: 0;
+  }
+  h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  h4 {
+    font-size: 30px;
+    color: white;
+  }
+ .banner {
+    background-image: url('images/Titre copie2.jpeg');
+    background-size: contain;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center; 
+  }
+
+  .photos {
+    width: 800px;
+    margin: auto;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    margin-bottom: 20px;
+  }
+  /*Cartes*/
+  .cards {
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 2px;
+    width: 200px;
+    text-align: center;
+    padding: 24px;
+    margin: 8px;
+  }
+  .cards img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 2px;
+  }
+  /*Footer*/
+  .footer {
+    background: #404042;
+    font-size: 24px;
+    text-align: center;
+    padding: 24px 0;
+  }
+  .footer p {
+    color: white;
+  }
+
+  /*Lien cliquable */
+  a {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    transition: .3s;
+  }
+  a:hover {
+    color: #CE2FAE;
+  }
+  .btn {
+    background-color: gray;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+  }
+  
